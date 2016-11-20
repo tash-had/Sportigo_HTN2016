@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.sportigo.maapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Charity Basketball for Cancer Research"
+        android:id="@+id/ename"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Event hosted by the Church of Jesus Christ and the Latter day saints. We pray for the safe return of our lambs from the disease of cancer."
+        android:id="@+id/edesc"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/ename"
+        android:layout_alignStart="@+id/ename" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="5 / 20 Players ( 4 Teams )"
+        android:id="@+id/ecount"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignLeft="@+id/edesc"
+        android:layout_alignStart="@+id/edesc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tash-had (Creator) \nBrian Chen \nGeorge Eisa \nStanley Ye \nSpongebob Squarepants"
+        android:id="@+id/eteam"
+        android:layout_below="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/basketball"
+        android:layout_alignTop="@+id/ename"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/date"
+        android:layout_alignTop="@+id/edate"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sept 18th, 5:00PM"
+        android:id="@+id/edate"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/ename"
+        android:layout_alignLeft="@+id/eloc"
+        android:layout_alignStart="@+id/eloc" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/ecount"
+        android:layout_toLeftOf="@+id/ecount"
+        android:layout_toStartOf="@+id/ecount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="12 Lancaster Avenue"
+        android:id="@+id/eloc"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/edesc"
+        android:layout_alignStart="@+id/edesc" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/loc"
+        android:layout_alignTop="@+id/eloc"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/desc"
+        android:layout_alignTop="@+id/edesc"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/ppllist"
+        android:layout_below="@+id/edesc"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginTop="22dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/numpeople"
+        android:layout_alignTop="@+id/eteam"
+        android:layout_toLeftOf="@+id/edesc"
+        android:layout_toStartOf="@+id/edesc" />
+
+    <Button
+        style="?android:textAppearanceSmall"
+        android:id="@+id/eregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

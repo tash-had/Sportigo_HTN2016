@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "394324441495",
+    "firebase_url": "https://sportigo-f4eb3.firebaseio.com",
+    "project_id": "sportigo-f4eb3",
+    "storage_bucket": "sportigo-f4eb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394324441495:android:24b2d706f265ea2c",
+        "android_client_info": {
+          "package_name": "me.app.sportigov4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394324441495-bdhlf1nr14vr9jjfrlhrhsbv60n2j3rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQo4T4wMZAJYkVY05jUuRLSxiF98qAckg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

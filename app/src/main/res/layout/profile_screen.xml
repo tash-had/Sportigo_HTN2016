@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/firstNameEt"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lastNameEt"
+        android:layout_gravity="center_horizontal"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/shortBioEt"
+        android:hint="Short Bio" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneEt"
+        android:hint="Phone Number" />
+
+    <ImageButton
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileImage"
+        android:layout_weight="0.56"
+        android:foregroundGravity="center"
+        android:layout_gravity="center_horizontal"
+        android:onClick="selectImage" />
+
+    <Button
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveProfileBtn"
+        android:onClick="saveProfile" />
+
+</LinearLayout>
